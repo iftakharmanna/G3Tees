@@ -1,0 +1,293 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html {
+    color: black;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 50;
+    margin-bottom: -10px;
+}
+
+
+body {
+    background: linear-gradient(to right, #ffffff, #ebe1e1); 
+    margin-right: 50px;
+    margin-left: 50px;
+    height:100%;
+}
+
+
+.section-center {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.shirt-item {
+    text-align: center;
+    border-style: solid;
+    border-width:1px;
+}
+
+.shirt-item:hover {
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+
+.photo {
+    border-style: solid;
+    border-width: 1px;
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+
+.shirt-info {
+    font-family: 'roboto', sans-serif;
+}
+
+.shirt-advert {
+    font-size: 15px;
+
+}
+
+
+#shirt-title {
+    font-size: 20px;
+}
+
+
+.price {
+    font-size: 20px;
+}
+
+
+hr {
+    margin-bottom: 60px;
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+
+
+
+/* Navbar and Logo Title */
+
+.line {
+    padding: 0.1px 1px; 
+    background-color: rgb(50, 43, 43);
+    border-style: none;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+
+#navbar {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .name {
+    margin-left: 100px;
+    margin-right: -78px; 
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  #navbar ul {
+    font-size: 18px;
+    margin-right: 16px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    letter-spacing: 3.6px;
+    margin-left: 490px; 
+  }
+  
+
+#navbar ul li {  
+    display: inline; 
+} 
+
+#navbar ul li a { 
+    text-decoration: none; 
+    padding: .75em 0.5em; 
+    color: rgb(0, 0, 0); 
+} 
+
+#navbar ul li a:hover { 
+    color: #713f3f;
+} 
+
+
+
+
+
+
+
+    
+
+/*  Footer */
+
+#contactUs {
+    font-size: 25px;
+    font-weight: light;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(30, 18, 18);
+    position: relative;
+}
+
+#contact {
+    margin-top:150px;
+    display: flex;
+    justify-content: center;
+}
+
+#contacts {
+    margin-top: 130px;
+}
+
+
+.fb {
+    float: center;
+}
+
+.fb {
+    position: relative;
+}
+
+.fb:hover {
+    opacity: 0.92;
+}
+
+.ig {
+    position: relative;
+}
+
+.ig:hover {
+    opacity: 0.92;
+}
+
+.email {
+    position: relative;
+}
+
+.email:hover {
+    opacity: 0.92;
+}
+
+
+/* Side Window */
+#sidebar {
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    background: linear-gradient(to top, #ffffff, #ebe1e1); 
+    position: fixed;
+    display: none;
+    border-left: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.shirt-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#photo2 {
+    height: 350px;
+    width: 300px;
+}
+
+#sbBtnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#shirt-title2 {
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+}
+
+#shirt-price2 {
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.quantity-selection {
+    margin-bottom: 20px;
+}
+
+.size-selection {
+    margin-bottom: 20px;
+}
+
+
+/* Button Styling */
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1.5px solid #000;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+#decrement-quantity {
+    padding: 5px 10px;
+}
+
+#increment-quantity {
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+

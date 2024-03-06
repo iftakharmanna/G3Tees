@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+html {
+  color: black
+}
+
 body {
     height:300vh;
     margin-top: 0px;
@@ -69,8 +73,9 @@ text-decoration: none;
      padding-top: -111px;
      position: relative;
      top: -110px;
- 
 }
+
+
 .welcome{
   color: rgb(69, 53, 53);
   font-size: 20px;
@@ -147,6 +152,7 @@ right: -8px;
 bottom: -215px;
 margin-top: -200px;
 }
+
 .fb{
   float: center;
   }
