@@ -5,7 +5,7 @@ const subtotalEl = document.querySelector(".subtotal");
 const totalItemsInCartEl = document.querySelector(".total-items-in-cart");
 
 // RENDER PRODUCTS
-function renderProdcuts() {
+function renderProducts() {
   products.forEach((product) => {
     productsEl.innerHTML += `
             <div class="item">
@@ -30,7 +30,7 @@ function renderProdcuts() {
         `;
   });
 }
-renderProdcuts();
+renderProducts();
 
 // cart array
 let cart = JSON.parse(localStorage.getItem("CART")) || [];
