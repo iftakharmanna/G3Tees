@@ -12,11 +12,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #ffffff, #f4d6d6); 
+    background: linear-gradient(to right, #ffffff, #ebe1e1); 
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    margin-top: -80px;
+    margin-top: -180px;
 }
 
 .name{

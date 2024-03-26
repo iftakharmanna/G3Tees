@@ -11,11 +11,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #ffffff, #d5eee6); 
+  background: linear-gradient(to right, #ffffff, #ebe1e1);
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
-  margin-top: -80px;
+  margin-top: -50px;
 }
   
 .name{
@@ -74,16 +74,17 @@ text-decoration: none;
 }
 
 h6{
-  font-size: 18px;
+  font-size: 25px;
   font-weight: light;
-font-family: 'Roboto', sans-serif;
-letter-spacing: 3px;
-color: rgb(30, 18, 18);
-position: relative;
-right: -8px;
-bottom: -135px;
-margin-top: -200px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  color: rgb(30, 18, 18);
+  position: relative;
+  right: -8px;
+  bottom: -160px;
+  margin-top: -200px;
 }
+
 .fb{
   float: center;
   }
@@ -118,6 +119,11 @@ margin-top: -200px;
   
   }
  
+
+
+
+
+
 .space{
 
   padding: 17px;
@@ -166,11 +172,10 @@ margin-top: -200px;
     font-size: 12px;
   }
 
-  td img{
+  .image{
     width: 80px;
     height: 80px;
     margin-right: 10px;
-
   }
 
   .total-price{
